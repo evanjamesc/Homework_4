@@ -119,7 +119,6 @@ $(document).ready(function () {
                         // If the user picks the correct answer, increment scoreCount
                         $("#Q5A4").on("click", function () {
                             scoreCount++;
-                            alert(scoreCount);
                         });
                         // If any button is clicked?
                         $(".quizButtons").on("click", function(){
